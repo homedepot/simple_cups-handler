@@ -1,0 +1,22 @@
+{
+  "name": "simple_cups-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "light-mode": "node index.js --light",
+    "dark-mode": "node index.js --dark",
+    "debug": "node index.js --debug --headless",
+    "debug-light-mode": "node index.js --debug --light",
+    "debug-dark-mode": "node index.js --debug --dark"
+  },
+  "author": "The Home Depot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "ipp": "^2.0.1",
+    "xml-js": "^1.6.11"
+  }
+}

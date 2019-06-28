@@ -1,0 +1,596 @@
+{
+  "version": "2.0",
+  "statusCode": "successful-ok",
+  "id": 82272714,
+  "operation-attributes-tag": {
+    "attributes-charset": "utf-8",
+    "attributes-natural-language": "en"
+  },
+  "printer-attributes-tag": {
+    "marker-change-time": 0,
+    "printer-config-change-date-time": "2019-07-13T13:38:58.000Z",
+    "printer-config-change-time": 1560404338,
+    "printer-current-time": "2019-07-24T12:43:47.000Z",
+    "printer-error-policy": "stop-printer",
+    "printer-error-policy-supported": [
+      "abort-job",
+      "retry-current-job",
+      "retry-job",
+      "stop-printer"
+    ],
+    "printer-icons": "http://localhost:631/icons/lexmark-printer.png",
+    "printer-is-accepting-jobs": true,
+    "printer-is-shared": true,
+    "printer-is-temporary": false,
+    "printer-more-info": "http://localhost:631/printers/lexmark-printer",
+    "printer-op-policy": "default",
+    "printer-state": "idle",
+    "printer-state-change-date-time": "2019-06-10T22:41:07.000Z",
+    "printer-state-change-time": 1557499267,
+    "printer-state-message": "",
+    "printer-state-reasons": "none",
+    "printer-type": 8425684,
+    "printer-up-time": 1561351427,
+    "printer-uri-supported": "ipp://localhost:631/printers/lexmark-printer",
+    "queued-job-count": 0,
+    "uri-authentication-supported": "requesting-user-name",
+    "uri-security-supported": "none",
+    "printer-name": "lexmark-printer",
+    "printer-location": "Fight Club",
+    "printer-info": "HowNowBrownCow!!",
+    "printer-organization": "",
+    "printer-organizational-unit": "",
+    "printer-uuid": "urn:uuid:87a9fdc0-4936-3040-56b7-9d85558f8911",
+    "job-quota-period": 0,
+    "job-k-limit": 0,
+    "job-page-limit": 0,
+    "job-sheets-default": [
+      "none",
+      "none"
+    ],
+    "device-uri": "socket://172.19.26.1:9100",
+    "document-format-supported": [
+      "application/octet-stream",
+      "application/pc-eps",
+      "application/pdf",
+      "application/postscript",
+      "application/vnd.apple-postscript",
+      "application/vnd.cups-banner",
+      "application/vnd.cups-command",
+      "application/vnd.cups-postscript",
+      "application/vnd.cups-raster",
+      "application/vnd.cups-raw",
+      "application/x-cshell",
+      "application/x-csource",
+      "application/x-perl",
+      "application/x-shell",
+      "application/xhtml+xml",
+      "image/fuji-raw",
+      "image/gif",
+      "image/imageio",
+      "image/jp2",
+      "image/jpeg",
+      "image/minolta-raw",
+      "image/openexr",
+      "image/pict",
+      "image/png",
+      "image/pwg-raster",
+      "image/rad",
+      "image/tiff",
+      "image/urf",
+      "image/x-alias",
+      "image/x-bitmap",
+      "image/x-bmp",
+      "image/x-ico",
+      "image/x-icon",
+      "image/x-photocd",
+      "image/x-portable-anymap",
+      "image/x-portable-bitmap",
+      "image/x-portable-graymap",
+      "image/x-portable-pixmap",
+      "image/x-psd",
+      "image/x-qtif",
+      "image/x-sgi-rgb",
+      "image/x-sun-raster",
+      "image/x-tga",
+      "image/x-xbitmap",
+      "image/x-xpixmap",
+      "text/html",
+      "text/plain"
+    ],
+    "copies-default": 1,
+    "document-format-default": "application/octet-stream",
+    "job-cancel-after-default": 10800,
+    "job-hold-until-default": "no-hold",
+    "job-priority-default": 50,
+    "number-up-default": 1,
+    "notify-lease-duration-default": 86400,
+    "notify-events-default": "job-completed",
+    "print-quality-default": "normal",
+    "color-supported": false,
+    "pages-per-minute": 50,
+    "printer-device-id": "MFG: Lexmark ;MDL: Lexmark MS620 Series",
+    "print-quality-supported": "normal",
+    "printer-make-and-model": "Lexmark MS620 Series",
+    "media-default": "na_letter_8.5x11in",
+    "media-col-default": {
+      "media-size": {
+        "x-dimension": 21590,
+        "y-dimension": 27940
+      },
+      "media-bottom-margin": 423,
+      "media-left-margin": 423,
+      "media-right-margin": 423,
+      "media-top-margin": 423,
+      "media-source": "tray-1",
+      "media-type": "printer-s"
+    },
+    "media-supported": [
+      "na_letter_8.5x11in",
+      "na_legal_8.5x14in",
+      "custom_215.9x340.43mm_215.9x340.43mm",
+      "jis_b5_182x257mm",
+      "iso_a4_210x297mm",
+      "na_executive_7.25x10.5in",
+      "om_hagaki_100.19x148.17mm",
+      "iso_a5_148x210mm",
+      "iso_a6_105x148mm",
+      "na_foolscap_8.5x13in",
+      "na_invoice_5.5x8.5in",
+      "na_monarch_3.875x7.5in",
+      "na_number-9_3.875x8.875in",
+      "na_number-10_4.125x9.5in",
+      "iso_dl_110x220mm",
+      "iso_c5_162x229mm",
+      "iso_b5_176x250mm",
+      "om_oth-env_215.9x351.37mm",
+      "custom_min_3x3in",
+      "custom_max_215.9x359.92mm"
+    ],
+    "media-size-supported": [
+      {
+        "x-dimension": 21590,
+        "y-dimension": 27940
+      },
+      {
+        "x-dimension": 21590,
+        "y-dimension": 35560
+      },
+      {
+        "x-dimension": 21590,
+        "y-dimension": 34043
+      },
+      {
+        "x-dimension": 18212,
+        "y-dimension": 25705
+      },
+      {
+        "x-dimension": 20990,
+        "y-dimension": 29704
+      },
+      {
+        "x-dimension": 18415,
+        "y-dimension": 26670
+      },
+      {
+        "x-dimension": 10019,
+        "y-dimension": 14817
+      },
+      {
+        "x-dimension": 14808,
+        "y-dimension": 21006
+      },
+      {
+        "x-dimension": 10478,
+        "y-dimension": 14781
+      },
+      {
+        "x-dimension": 21590,
+        "y-dimension": 33020
+      },
+      {
+        "x-dimension": 13970,
+        "y-dimension": 21590
+      },
+      {
+        "x-dimension": 9843,
+        "y-dimension": 19050
+      },
+      {
+        "x-dimension": 9843,
+        "y-dimension": 22543
+      },
+      {
+        "x-dimension": 10478,
+        "y-dimension": 24130
+      },
+      {
+        "x-dimension": 10998,
+        "y-dimension": 21996
+      },
+      {
+        "x-dimension": 16205,
+        "y-dimension": 22911
+      },
+      {
+        "x-dimension": 17602,
+        "y-dimension": 24994
+      },
+      {
+        "x-dimension": 21590,
+        "y-dimension": 35137
+      },
+      {
+        "x-dimension": [
+          7620,
+          21590
+        ],
+        "y-dimension": [
+          7620,
+          35992
+        ]
+      }
+    ],
+    "media-source-supported": [
+      "tray-1",
+      "tray-2",
+      "tray-3",
+      "tray-4",
+      "by-pass-tray",
+      "manual-paper",
+      "manual-env"
+    ],
+    "media-type-supported": [
+      "printer-s",
+      "stationery",
+      "colored",
+      "transparency",
+      "cardstock",
+      "labels",
+      "bond",
+      "stationery-letterhead",
+      "stationery-preprinted",
+      "rough-envelope",
+      "envelope",
+      "stationery-recycled",
+      "light",
+      "heavy",
+      "rough",
+      "custom-1",
+      "custom-2",
+      "custom-3",
+      "custom-4",
+      "custom-5",
+      "custom-6"
+    ],
+    "media-bottom-margin-supported": 423,
+    "media-left-margin-supported": [
+      423,
+      353
+    ],
+    "media-right-margin-supported": [
+      423,
+      361,
+      212,
+      415,
+      0,
+      106,
+      62,
+      119,
+      34
+    ],
+    "media-top-margin-supported": [
+      423,
+      446,
+      439,
+      406,
+      440
+    ],
+    "output-bin-supported": [
+      "printer-s",
+      "standard-bin"
+    ],
+    "output-bin-default": "printer-s",
+    "print-color-mode-supported": "monochrome",
+    "print-color-mode-default": "monochrome",
+    "pwg-raster-document-type-supported": [
+      "black_1",
+      "sgray_8"
+    ],
+    "printer-resolution-default": [
+      300,
+      300,
+      "dpi"
+    ],
+    "printer-resolution-supported": [
+      300,
+      300,
+      "dpi"
+    ],
+    "pwg-raster-document-resolution-supported": [
+      300,
+      300,
+      "dpi"
+    ],
+    "pwg-raster-document-sheet-back": "normal",
+    "sides-supported": [
+      "one-sided",
+      "two-sided-long-edge",
+      "two-sided-short-edge"
+    ],
+    "sides-default": "two-sided-long-edge",
+    "printer-commands": [
+      "ReportLevels",
+      "AutoConfigure"
+    ],
+    "port-monitor": "none",
+    "port-monitor-supported": [
+      "none",
+      "tbcp"
+    ],
+    "finishings-supported": "none",
+    "finishings-default": "none",
+    "charset-configured": "utf-8",
+    "charset-supported": [
+      "us-ascii",
+      "utf-8"
+    ],
+    "compression-supported": [
+      "none",
+      "gzip"
+    ],
+    "copies-supported": [
+      1,
+      9999
+    ],
+    "cups-version": "2.2.9",
+    "generated-natural-language-supported": "en-us",
+    "ipp-features-supported": "subscription-object",
+    "ipp-versions-supported": [
+      "1.0",
+      "1.1",
+      "2.0",
+      "2.1"
+    ],
+    "ippget-event-life": 15,
+    "job-cancel-after-supported": [
+      0,
+      2147483647
+    ],
+    "job-creation-attributes-supported": [
+      "copies",
+      "finishings",
+      "ipp-attribute-fidelity",
+      "job-hold-until",
+      "job-name",
+      "job-priority",
+      "job-sheets",
+      "media",
+      "media-col",
+      "multiple-document-handling",
+      "number-up",
+      "output-bin",
+      "orientation-requested",
+      "page-ranges",
+      "print-color-mode",
+      "print-quality",
+      "printer-resolution",
+      "sides"
+    ],
+    "job-hold-until-supported": [
+      "no-hold",
+      "indefinite",
+      "day-time",
+      "evening",
+      "night",
+      "second-shift",
+      "third-shift",
+      "weekend"
+    ],
+    "job-ids-supported": true,
+    "job-k-octets-supported": [
+      0,
+      488245284
+    ],
+    "job-priority-supported": 100,
+    "job-settable-attributes-supported": [
+      "copies",
+      "finishings",
+      "job-hold-until",
+      "job-name",
+      "job-priority",
+      "media",
+      "media-col",
+      "multiple-document-handling",
+      "number-up",
+      "output-bin",
+      "orientation-requested",
+      "page-ranges",
+      "print-color-mode",
+      "print-quality",
+      "printer-resolution",
+      "sides"
+    ],
+    "job-sheets-supported": [
+      "none",
+      "classified",
+      "confidential",
+      "secret",
+      "standard",
+      "topsecret",
+      "unclassified"
+    ],
+    "jpeg-k-octets-supported": [
+      0,
+      488245284
+    ],
+    "jpeg-x-dimension-supported": [
+      0,
+      65535
+    ],
+    "jpeg-y-dimension-supported": [
+      1,
+      65535
+    ],
+    "media-col-supported": [
+      "media-bottom-margin",
+      "media-left-margin",
+      "media-right-margin",
+      "media-size",
+      "media-source",
+      "media-top-margin",
+      "media-type"
+    ],
+    "multiple-document-handling-supported": [
+      "separate-documents-uncollated-copies",
+      "separate-documents-collated-copies"
+    ],
+    "multiple-document-jobs-supported": true,
+    "multiple-operation-time-out": 300,
+    "multiple-operation-time-out-action": "process-job",
+    "natural-language-configured": "en-us",
+    "notify-attributes-supported": [
+      "printer-state-change-time",
+      "notify-lease-expiration-time",
+      "notify-subscriber-user-name"
+    ],
+    "notify-lease-duration-supported": [
+      0,
+      2147483647
+    ],
+    "notify-max-events-supported": 100,
+    "notify-events-supported": [
+      "job-completed",
+      "job-config-changed",
+      "job-created",
+      "job-progress",
+      "job-state-changed",
+      "job-stopped",
+      "printer-added",
+      "printer-changed",
+      "printer-config-changed",
+      "printer-deleted",
+      "printer-finishings-changed",
+      "printer-media-changed",
+      "printer-modified",
+      "printer-restarted",
+      "printer-shutdown",
+      "printer-state-changed",
+      "printer-stopped",
+      "server-audit",
+      "server-restarted",
+      "server-started",
+      "server-stopped"
+    ],
+    "notify-pull-method-supported": "ippget",
+    "notify-schemes-supported": [
+      "mailto",
+      "rss"
+    ],
+    "number-up-supported": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      16
+    ],
+    "operations-supported": [
+      "Print-Job",
+      "Validate-Job",
+      "Create-Job",
+      "Send-Document",
+      "Cancel-Job",
+      "Get-Job-Attributes",
+      "Get-Jobs",
+      "Get-Printer-Attributes",
+      "Hold-Job",
+      "Release-Job",
+      "Pause-Printer",
+      "Resume-Printer",
+      "Purge-Jobs",
+      "Set-Printer-Attributes",
+      "Set-Job-Attributes",
+      "Get-Printer-Supported-Values",
+      "Create-Printer-Subscriptions",
+      "Create-Job-Subscription",
+      "Get-Subscription-Attributes",
+      "Get-Subscriptions",
+      "Renew-Subscription",
+      "Cancel-Subscription",
+      "Get-Notifications",
+      "Enable-Printer",
+      "Disable-Printer",
+      "Hold-New-Jobs",
+      "Release-Held-New-Jobs",
+      "Cancel-Jobs",
+      "Cancel-My-Jobs",
+      "Close-Job",
+      16385,
+      16386,
+      16387,
+      16388,
+      16389,
+      16390,
+      16391,
+      16392,
+      16393,
+      16394,
+      16395,
+      16396,
+      16397,
+      16398,
+      16399,
+      16423,
+      "Restart-Job"
+    ],
+    "orientation-requested-supported": [
+      "portrait",
+      "landscape",
+      "reverse-landscape",
+      "reverse-portrait"
+    ],
+    "page-ranges-supported": true,
+    "pdf-k-octets-supported": [
+      0,
+      488245284
+    ],
+    "pdf-versions-supported": [
+      "adobe-1.2",
+      "adobe-1.3",
+      "adobe-1.4",
+      "adobe-1.5",
+      "adobe-1.6",
+      "adobe-1.7",
+      "iso-19005-1_2005",
+      "iso-32000-1_2008",
+      "pwg-5102.3"
+    ],
+    "pdl-override-supported": "attempted",
+    "printer-get-attributes-supported": "document-format",
+    "printer-op-policy-supported": [
+      "authenticated",
+      "default",
+      "kerberos"
+    ],
+    "printer-settable-attributes-supported": [
+      "printer-geo-location",
+      "printer-info",
+      "printer-location",
+      "printer-organization",
+      "printer-organizational-unit"
+    ],
+    "server-is-sharing-printers": false,
+    "which-jobs-supported": [
+      "completed",
+      "not-completed",
+      "aborted",
+      "all",
+      "canceled",
+      "pending",
+      "pending-held",
+      "processing",
+      "processing-stopped"
+    ]
+  }
+}
